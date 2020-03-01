@@ -1,0 +1,26 @@
+{
+  "name": "frontend-test-puppeteer",
+  "version": "1.0.0",
+  "description": "This is frontend testing using Jest and Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Surabhi Govil",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "create-readme": "^2.1.3",
+    "jest": "^25.1.0",
+    "puppeteer": "^2.1.1",
+    "rimraf": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surabhigovil/Frontend-Test-Puppeteer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/surabhigovil/Frontend-Test-Puppeteer/issues"
+  },
+  "homepage": "https://github.com/surabhigovil/Frontend-Test-Puppeteer#readme"
+}
