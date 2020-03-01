@@ -23,7 +23,7 @@ class PuppeteerEnvironment extends NodeEnvironment {
       browserWSEndpoint: wsEndpoint,
     })
   }
-
+  
   async teardown() {
     console.log(chalk.yellow('Teardown Test Environment.'))
     await super.teardown()

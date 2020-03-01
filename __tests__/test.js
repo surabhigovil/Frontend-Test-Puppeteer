@@ -9,8 +9,8 @@ describe(
     let page
     beforeAll(async () => {
       jest.setTimeout(timeout)
-      page = await global.__BROWSER__.newPage() //initialize a new browser session everytime test starts
-      await page.setViewport({ width: 1280, height: 1800 })
+      page = await global.__BROWSER__.newPage() //initialize a new browser session everytime a test starts
+      await page.setViewport({ width: 0, height: 0 }) // the page viewport size becomes equal to size of the browser with height as 0
       await page.goto('https://www.linkedin.com') //navigate to url
     }, timeout)
 
@@ -42,7 +42,7 @@ describe(
       await page.hover('div.basic-typeahead__triggered-content > div :nth-child(2) > div')
       await page.waitFor(1000)
       await page.click('div.basic-typeahead__triggered-content > div :nth-child(2) > div')//click on jobs category auto-suggestions
-      await page.waitFor(5000)
+      await page.waitFor(6000)
     })
   },
   timeout
