@@ -32,4 +32,5 @@ Rimraf: The UNIX command rm -rf for node. <https://github.com/isaacs/rimraf>
 
 1. $ npm install
 2. $ npm init
-3. $ npm test
+3. Update credentials.json with username and password
+4. $ npm test
