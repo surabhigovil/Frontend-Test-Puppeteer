@@ -1,7 +1,3 @@
-### **Name: Surabhi Govil**
-
-### **Email: govil.surabhi@gmail.com**
-
 ### **Source Code**
 
 test.js: This file contains the tests, instructions for setting up and configuring the web driver, and assertions.
